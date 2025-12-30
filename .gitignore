@@ -205,3 +205,14 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Book files
+books/*
+!books/*.txt
+
+# Results
+results/*
+!results/*.txt
+
+# Configuration files
+*.ini

@@ -1,0 +1,1 @@
+Place your book files (.fb2, .fb2.zip, .epub, .txt) in this folder.
