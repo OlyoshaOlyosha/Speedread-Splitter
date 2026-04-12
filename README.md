@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.6%2B-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Version](https://img.shields.io/badge/Version-1.0.0-orange.svg)
+![Version](https://img.shields.io/github/v/release/OlyoshaOlyosha/Speedread-Splitter?label=Version&color=orange)
 
 **A simple and powerful tool to split e-books into daily reading portions based on your personal reading speed.**  
 Perfect for speed reading practice, building a consistent reading habit, and planning long-term progress.
