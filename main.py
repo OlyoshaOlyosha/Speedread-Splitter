@@ -346,7 +346,12 @@ def split_book():
     book_name = os.path.splitext(os.path.basename(file_path))[0]
     book_name = re.sub(r'[<>:"/\\|?*]', '', book_name)
     folder_name = f"{book_name} {words_per_minute}wpm"
-    output_dir = os.path.join(os.path.dirname(file_path), folder_name)
+    
+    # Place output inside the global 'results' directory (next to the script)
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    results_root = os.path.join(script_dir, 'results')
+    os.makedirs(results_root, exist_ok=True)          # Ensure results/ exists
+    output_dir = os.path.join(results_root, folder_name)
     
     # Check if folder exists
     if os.path.exists(output_dir) and os.listdir(output_dir):
